@@ -6,7 +6,9 @@
     /_/   /_//____/___/____/  / /_/ /_/___/
                              /_/ 
 The origin of this project was created in the necessity to service other programs that destroy or misplace their configuration or initialization files. <br />
+
 FileSync was designed to copy a desired file from one or many directories into a temporary folder structure based on the original file including the way it exists in the primary root folder. If for whatever reason this file disappears FileSync will replace it with the temporary file, it has on hand. This temporarily file snapshots are based on a user defined interval. <br />
+
 This Java jar will launch a message center UI for informational purposes. It will log any error or when it discovers a missing file. There is a safety mechanism in place to double check twice before replacing any missing files for the root directory.
 
 ## Getting Started
